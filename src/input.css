@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .search-input:hover {
+        border: 2px solid; /* Adjust border thickness if needed */
+        border-image: linear-gradient(to right, #9ED2E6, #6294A5) 1; /* Gradient for border */
+        text-decoration-color: black;
+      }
+      
+  }
+  
